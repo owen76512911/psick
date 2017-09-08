@@ -82,11 +82,14 @@ mod "puppetlabs/dummy_service", :latest
 # Used by profile::vagrant
 mod 'unibet/vagrant', :latest
 
-# Used by profile::monitor::sensu
+# Used by profile::sensu
 # mod 'sensu/sensu', :latest
 # mod 'yelp/uchiwa', :latest
 # mod 'puppet/rabbitmq', :latest
 # mod 'puppet/staging', :latest
+
+# Used by profile::prometheus
+# mod 'puppet/prometheus', :latest
 
 # Used by profile::windows 
 # mod 'puppet/windowsfeature', :latest # :git => 'https://forge.puppet.com/voxpupuli/puppet-windowsfeature'
