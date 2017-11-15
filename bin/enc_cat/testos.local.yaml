@@ -1,8 +1,0 @@
----
-  environment: production
-  classes:
-    - psick::git
-  parameters:
-    env: development
-    role: ostest
-

@@ -1,7 +1,0 @@
----
-  environment: production
-  classes:
-    - psick
-  parameters:
-    env: development
-    role: default
