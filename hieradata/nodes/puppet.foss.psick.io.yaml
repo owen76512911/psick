@@ -9,7 +9,9 @@ psick::puppet::gems::install_system_gems: false
 
 psick::puppet::foss_server_metrics::graphite_server: 'grafana.foss.psick.io'
 
-psick::puppetserver::git_remote_repo: https://github.com/example42/psick.git
+psick::puppetserver::r10k_remote_repo: https://github.com/example42/psick.git
+psick::puppetserver::r10k_configure_webhook: false
+# psick::puppetserver::git_remote_repo: https://github.com/example42/psick.git
 psick::puppetserver::dns_alt_names: "puppet, puppet.%{::domain}"
 psick::puppetserver::remove_global_hiera_yaml: true
 

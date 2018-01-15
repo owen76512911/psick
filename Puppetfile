@@ -8,13 +8,8 @@
 # From Forge
 mod 'example42/tp', :latest
 mod 'example42/tinydata', :latest
-# mod 'example42/psick', :latest
-mod 'example42/psick',
-  :git => 'https://github.com/example42/puppet-psick'
+mod 'example42/psick', :latest
 mod 'example42/network', :latest
-mod 'example42/puppet',
-  :git => 'https://github.com/example42/puppet-puppet',
-  :branch => 'master'
 
 # Third Party modules
 mod 'puppetlabs/concat', '3.0.0' # postgresql requires concat < 3.0.0
