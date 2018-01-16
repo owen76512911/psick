@@ -26,7 +26,7 @@ mod 'puppetlabs/inifile', :latest
 # Used by psick::puppet::foss_server
 mod 'puppetlabs/postgresql', :latest
 mod 'puppetlabs/puppetdb', :latest
-mod 'camptocamp/puppetserver', :2.1.0
+mod 'camptocamp/puppetserver', '2.1.0'
 #mod 'puppet/puppetserver',
 #  :git => 'https://github.com/voxpupuli/puppet-puppetserver.git',
 #  :tag => '2.1.0'
