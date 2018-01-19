@@ -138,7 +138,7 @@ beaker:
   before_script:
     - "bin/gitlab_before.sh ${CI_BUILD_REF_NAME}"
     - "/opt/puppetlabs/puppet/bin/bundle install --with=integration --path=vendor"
-  script: "/opt/puppetlabs/puppet/bin/rake beaker_roles:psick"
+  script: "/opt/puppetlabs/puppet/bin/rake beaker_roles:puppetmaster"
   cache:
     untracked: true
     paths:
