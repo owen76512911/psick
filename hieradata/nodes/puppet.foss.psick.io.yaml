@@ -1,11 +1,16 @@
 ---
 psick::base::linux_classes:
-  puppetdb: psick::puppetdb
+        # puppetdb: psick::puppetdb
   puppetserver: psick::puppetserver
+  puppetautosign: psick::puppet::autosign
 
 psick::puppet::gems::install_gems: []
 psick::puppet::gems::default_set: 'master'
 psick::puppet::gems::install_system_gems: false
+psick::puppet::gems::install_puppetserver_gems: true
+
+psick::puppet::autosign::autosign: 'on'
+psick::puppet::autosign::autosign_match: '*.foss.psick.io'
 
 psick::puppet::foss_server_metrics::graphite_server: 'grafana.foss.psick.io'
 
